@@ -47,6 +47,10 @@ body {
     background-color: cyan;
 }
 
+.white {
+    background-color: white;
+}
+
 .magenta {
     background-color: magenta;
 }

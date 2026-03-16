@@ -852,6 +852,88 @@
     </table>
 </details>
 
+<details>
+    <summary>Redux CANANDMAG Encoder</summary>
+
+    <table cellpadding="5" cellspacing="0" class="led-table">
+        <tr>
+            <td>
+                <table class="section-table">
+                    <tr>
+                        <td class="green led"> </td>
+                        <td>Magnet is in range</td>
+                    </tr>
+                    <tr>
+                        <td class="red led"> </td>
+                        <td>Magnet is not in range (typically too far)</td>
+                    </tr>
+                    <tr>
+                        <td class="cyan blink led"> </td>
+                        <td>Firmware update in progress</td>
+                    </tr>
+                    <tr>
+                        <td class="blue blink led"> </td>
+                        <td>CAN ID conflict detected</td>
+                    </tr>
+                    <tr>
+                        <td class="red blink led"> </td>
+                        <td>Hardware fault</td>
+                    </tr>
+                    <tr>
+                        <td class="white led"> </td>
+                        <td>Encoder zero button pressed</td>
+                    </tr>
+                    <tr>
+                        <td class="blue led"> </td>
+                        <td><b>Dim</b> Undervoltage</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</details>
+
+<details>
+    <summary>Redux CANANDGYRO IMU</summary>
+
+    <table cellpadding="5" cellspacing="0" class="led-table">
+        <tr>
+            <td>
+                <table class="section-table">
+                    <tr>
+                        <td class="green slow led"> </td>
+                        <td>Normal operation, roboRIO detected on CAN bus</td>
+                    </tr>
+                    <tr>
+                        <td class="red slow led"> </td>
+                        <td>roboRIO not detected or other CANbus faults</td>
+                    </tr>
+                    <tr>
+                        <td class="yellow led"> </td>
+                        <td>Calibrating, operational with reduced accuracy</td>
+                    </tr>
+                    <tr>
+                        <td class="blue blink led"> </td>
+                        <td>DFU in progress</td>
+                    </tr>
+                    <tr>
+                        <td class="blue led"> </td>
+                        <td>DFU failed, check Alchemist</td>
+                    </tr>
+                    <tr>
+                        <td class="yellow blink-red led"> </td>
+                        <td>Hardware fault</td>
+                    </tr>
+                    <tr>
+                        <td class="blue blink-red led"> </td>
+                        <td>CAN ID conflict detected</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</details>
+
 <br>
 
 <details>
