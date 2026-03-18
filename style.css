@@ -185,6 +185,11 @@ body {
     animation-timing-function: steps(2, jump-none);
 }
 
+.blink-purple {
+    animation: blink-purple 1000ms infinite;
+    animation-timing-function: steps(2, jump-none);
+}
+
 .blink-yellow-fast {
     animation: blink-yellow 500ms infinite;
     animation-timing-function: steps(2, jump-none);
@@ -485,6 +490,12 @@ body {
 @keyframes blink-yellow {
     100% {
         background-color: yellow;
+    }
+}
+
+@keyframes blink-purple {
+    100% {
+        background-color: purple;
     }
 }
 

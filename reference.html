@@ -998,7 +998,7 @@
 </details>
 
 <details>
-    <summary>Redux CANANDMAG Encoder</summary>
+    <summary>Redux CANANDMAG Encoder Lights</summary>
 
     <table cellpadding="5" cellspacing="0" class="led-table">
         <tr>
@@ -1046,7 +1046,7 @@
 </details>
 
 <details>
-    <summary>Redux CANANDGYRO IMU</summary>
+    <summary>Redux CANANDGYRO IMU Lights</summary>
 
     <table cellpadding="5" cellspacing="0" class="led-table">
         <tr>
@@ -1086,6 +1086,92 @@
                         <td class="blue blink-red led"> </td>
                         <td>CAN ID conflict detected</td>
                         <td><i>Blue / Red Alternating</i></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</details>
+
+<details>
+    <summary>Grapple MitoCANdria Lights</summary>
+
+    <table cellpadding="5" cellspacing="0" class="led-table">
+        <tr>
+            <td>
+                <table class="section-table has-color-description">
+                    <tr>
+                        <td class="red led"> </td>
+                        <td>In bootloader</td>
+                        <td><i>Red</i></td>
+                    </tr>
+                    <tr>
+                        <td class="red blink-yellow led"> </td>
+                        <td>Bootloader initialized</td>
+                        <td><i>Red / Yellow Alternating</i></td>
+                    </tr>
+                    <tr>
+                        <td class="red blink-purple led"> </td>
+                        <td>Detecting CAN bitrate</td>
+                        <td><i>Red / Purple Alternating</i></td>
+                    </tr>
+                    <tr>
+                        <td class="green led"> </td>
+                        <td>Firmware ready, CAN initialized</td>
+                        <td><i>Green</i></td>
+                    </tr>
+                    <tr>
+                        <td class="green blink-purple led"> </td>
+                        <td>Firmware ready, CAN awaiting bitrate detection (CAN bus disconnected)</td>
+                        <td><i>Green / Purple Alternating</i></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</details>
+
+<details>
+    <summary>Grapple LaserCAN Lights</summary>
+
+    <table cellpadding="5" cellspacing="0" class="led-table">
+        <tr>
+            <td>
+                <table class="section-table has-color-description">
+                    <tr>
+                        <td colspan="2" class="bold">P (Power)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="black led"> </td>
+                        <td>No Power</td>
+                        <td><i>Off</i></td>
+                    </tr>
+                    <tr>
+                        <td class="green led"> </td>
+                        <td>Power On</td>
+                        <td><i>Green</i></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <table class="section-table has-color-description">
+                    <tr>
+                        <td colspan="2" class="bold">S (Status)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="orange blink led"> </td>
+                        <td>Normal operation. Will flash at speed proportional to the distance it's reading.</td>
+                        <td><i>Orange Blink</i></td>
+                    </tr>
+                    <tr>
+                        <td class="orange led"> </td>
+                        <td>In bootloader, awaiting firmware update</td>
+                        <td><i>Orange</i></td>
                     </tr>
                 </table>
             </td>
