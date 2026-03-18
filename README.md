@@ -1,5 +1,16 @@
 # CSA Buddy Assets
 
+## Contributing
+
+All the content is in reference.html. LED patterns are done using CSS found in style.css. reference-accessible.html is an exact copy of reference.html with the following lines removed:
+```html
+<style>
+    .has-color-description td:last-child {
+        display: none;
+    }
+</style>
+```
+
 ## Attribution
 
 * "FRC Basic Wiring Diagram" by FRC® Team 3161 and Stefen Acepcion, source at [https://github.com/stefacep/2025-FRC-Control-System-Diagrams](https://github.com/stefacep/2025-FRC-Control-System-Diagrams), licensed under CC BY 4.0 ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)). No changes were made.
