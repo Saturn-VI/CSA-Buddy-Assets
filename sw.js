@@ -1,23 +1,23 @@
 const CACHE = 'csa-buddy-cache'
 const urlsToCache = [
-    '/',
-    '/aboutpage.html',
-    '/ChArUco.png',
-    '/errorpage.html',
-    '/frc-control-system-layout-basic.svg',
-    '/frc-control-system-layout-ctre.svg',
-    '/frc-control-system-layout-rev.svg',
-    '/ftc-control-system-layout-b1.svg',
-    '/ftc-control-system-layout-b2.svg',
-    '/index.html',
-    '/LICENSE',
-    '/README.md',
-    '/reference-accessible.html',
-    '/reference.html',
-    '/script.js',
-    '/style.css',
-    '/vivid-radio.jpg',
-    '/welcomepage.html'
+    './',
+    './aboutpage.html',
+    './ChArUco.png',
+    './errorpage.html',
+    './frc-control-system-layout-basic.svg',
+    './frc-control-system-layout-ctre.svg',
+    './frc-control-system-layout-rev.svg',
+    './ftc-control-system-layout-b1.svg',
+    './ftc-control-system-layout-b2.svg',
+    './index.html',
+    './LICENSE',
+    './README.md',
+    './reference-accessible.html',
+    './reference.html',
+    './script.js',
+    './style.css',
+    './vivid-radio.jpg',
+    './welcomepage.html'
 ];
 
 self.addEventListener('install', event => {
