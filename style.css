@@ -569,3 +569,7 @@ code {
 a {
     color: cornflowerblue;
 }
+
+.isWebView .hideInWebView {
+    display: none;
+}
